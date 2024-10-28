@@ -1,0 +1,1 @@
+Testando modificações no Git por dentro do VScode
