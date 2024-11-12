@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello Word, Quem sou?</title>
+    <script src="js/index.js" type="text/javascript" defer></script>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <h1 class="centroh1">Minhas Informações</h1>
+    <div class="containerImg">
+        <img class="alinhaImg" src="img/IMG-20220826-WA0017.png" alt="Imagem do Sandro Marques"/>
+        <div class="containerP">
+            <p>Sandro Marques ( Primeiro Workshop )</p>
+        </div>
+    </div>        
+    <h2 class="titulo2">Um pouco sobre mim</h2>
+    <div class="containerListas">
+        <div>
+            <h3>O que eu gosto!</h3>
+            <ul>
+                <li>Louvar a Deus <button id="b1" onclick="clicar1()">Botão 1</button></li>
+                <li>Estudar música <button id="b2" onclick="clicar2()">Botão 2</button></li>
+                <li>Reunião de Família <button id="b3" onclick="clicar3()">Botão 3</button></li>
+                <li>Estudar tecnologias <button id="b4" onclick="clicar4()">Botão 4</button></li>
+                <li>Assistir vídeos sobre informações relevantes <button id="b5" onclick="clicar5()">Botão 5</button></li>
+            </ul>
+        </div>
+        <div>
+            <h3>O que não gosto!</h3>
+            <ol>
+                <li>Ficar sem trabalho <button id="b6" onclick="clicar6()">Botão 6</button></li>                
+                <li>Pesquisar preço <button id="b7" onclick="clicar7()">Botão 7</button></li>                
+                <li>Lavar roupas <button id="b8" onclick="clicar8()">Botão 8</button></li>                
+                <li>Ir ao hospital ou similares <button id="b9" onclick="clicar9()">Botão 9</button></li>            
+                <li>Ficar doente <button id="b10" onclick="clicar10()">Botão 10</button></li>                
+            </ol>
+        </div>
+    </div>
+    <div class="containerForm">
+        <h4>Contatos</h4>
+        <form id="formContatos">
+        <div class="row">
+            <div class="label">
+                <label for="nome">Nome</label>
+            </div>
+            <div class="input">
+                <input type="text" id="nome" name="nome" placeholder="Digite seu nome aqui" required>
+            </div>
+        </div>
+            
+        <div class="row">
+            <div class="label">
+                <label for="nome">Nome</label>
+            </div>
+            <div class="input">
+                <input type="text" id="nome" name="nome" placeholder="Digite seu nome aqui" required>
+            </div>
+        </div>
+
+        <div class="now">
+            <div clas="label">
+                <label for="telefone">Telefone</label>
+            </div>
+            <div class="input">
+                <input type="tel" id="telefone" name="telefone" placeholder="Digite o DDD + o número do seu telefone" pattern="[0-9]{11}" required>
+                <span>Exemplo: 91912312312</span>
+            </div>
+
+            <div class="row">
+                <input type="submit" value="Enviar">
+                
+            </div>
+        </div>
+        </form>
+    </div>
+</body>
+</html>

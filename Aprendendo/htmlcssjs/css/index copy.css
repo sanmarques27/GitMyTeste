@@ -1,0 +1,97 @@
+.centroh1 {
+   text-align: center;
+}
+
+div.containerImg {
+   width: 35%;
+   height: auto;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   margin-left: auto;
+   margin-right: auto;
+   border-radius: 18px;
+}
+
+.alinhaImg {
+   width: 100%;
+}
+
+.containerP {
+   text-align: center;
+   padding: 10px 20px;
+}
+
+.titulo2{
+   font-size: xx-large;
+   text-align: center;
+   border: solid #4CAF50;
+}
+
+.containerListas {
+   display: flex;               /* Usando Flexbox para layout horizontal */
+   justify-content: space-around; /* Espaço igual entre os itens */
+   align-items: flex-start;      /* Alinha os itens ao topo */
+   flex-wrap: wrap;              /* Permite que os itens se quebrem em uma nova linha se necessário */
+   margin-top: 20px;
+}
+
+.containerListas h3 {
+   width: 100%;                  /* Para garantir que o título ocupe toda a linha acima da lista */
+   text-align: center;
+}
+
+.containerListas ul, .containerListas ol {
+   width: auto;                   /* Definir a largura das listas */
+   list-style-position: inside;  /* Coloca o marcador dentro da lista */
+   padding: 0;
+   margin: 0;
+}
+
+.containerListas li {
+   padding: 5px 0;
+}
+
+.containerListas button {
+   margin-left: 10px;            /* Espaço entre o botão e o item da lista */
+   padding: 5px 10px;
+   background-color: #4CAF50;    /* Cor do botão */
+   color: white;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+}
+
+.containerListas button:hover {
+   background-color: #45a049;    /* Cor do botão ao passar o mouse */
+}
+
+   
+.form {
+   background: lightgreen;
+   text-align-last:center;
+}
+/*
+.formContatos {
+   display: ruby-text;
+}
+*/
+
+/* Estilo para o formulário */
+
+form {
+   width: 300px; /* Ajuste a largura do formulário conforme necessário */
+   margin: 0 auto; /* Centraliza o formulário */
+}
+
+/* Espaçamento entre os campos de input */
+input {
+   margin-bottom: 15px; /* Aumenta o espaço entre os campos */
+   padding: 8px; /* Adiciona preenchimento dentro dos campos */
+   width: 100%; /* Faz os campos ocuparem toda a largura disponível */
+}
+
+/* Estilo para os labels */
+label {
+   /* display: block; Faz o label ocupar toda a linha */
+   margin-bottom: 5px; /* Espaço entre o label e o input */
+}
+
